@@ -42,10 +42,13 @@ class Solution {
             verMax = Math.max(verMax, verticalCuts[i] - verticalCuts[i - 1]);
         }
         
-        // Return answer module mod.
-        
+        // Return answer module mod. Either declare mod variable or use Math power function.
+        /*
         double mod = 1000000007;
         return (int) ((horMax * verMax) % mod);
+        */
+        
+        return (int) ((horMax * verMax) % (Math.pow(10, 9) + 7));
                 
     }
 }
