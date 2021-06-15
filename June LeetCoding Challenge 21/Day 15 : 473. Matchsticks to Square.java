@@ -5,8 +5,7 @@ class Solution {
         
         /*  Approach:
         
-            --s
-            s-sr
+            We will use DFS to search for all combinations where my sticks can form a square
         
         */
         
