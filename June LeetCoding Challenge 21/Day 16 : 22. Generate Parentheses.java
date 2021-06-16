@@ -20,11 +20,9 @@ class Solution {
     
     public void recHelper (String s, int openBracket, int closeBracket, int pairLength, List <String> res) {
         
-        System.out.println(s);
         // Base or Return Condition
         
         if (s.length() == pairLength) {
-            System.out.println("Added : "+s);
             
             res.add(s);   // If str length becomes equal to pair length, add to result and return.
             return;       // Even, if we don't write return, below conditions will not satisfy and returns.
