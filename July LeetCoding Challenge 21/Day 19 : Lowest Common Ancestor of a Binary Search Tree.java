@@ -14,6 +14,8 @@ class Solution {
         
         while (root != null) {
             
+            // In BST, if both p and q are less than current value, then check on left side of root. Else check right side if both are greater.
+            
             if ( root.val > p.val && root.val > q.val ) {
                 
                 root = root.left;
