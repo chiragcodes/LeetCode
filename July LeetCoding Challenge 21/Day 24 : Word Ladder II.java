@@ -9,6 +9,10 @@ class Solution {
         Good Post : 
         https://leetcode.com/problems/word-ladder-ii/discuss/40475/My-concise-JAVA-solution-based-on-BFS-and-DFS
         
+        Here, using BFS first of all, we are checking the shortest route to reach endWord from startWord using dictionary wordList given.
+        
+        Then, we use DFS to again traverse through it to check the acutal chars of sequence for that shortest path.
+        
         */
         
         
