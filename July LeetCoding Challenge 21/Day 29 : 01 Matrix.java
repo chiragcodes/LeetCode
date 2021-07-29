@@ -72,6 +72,5 @@ class Solution {
         
         return mat;
         
-        
     }
 }
