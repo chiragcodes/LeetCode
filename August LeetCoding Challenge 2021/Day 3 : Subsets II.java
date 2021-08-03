@@ -14,7 +14,7 @@ class Solution {
         
     }
     
-    // Helper function
+    // Helper function to calculate duplicate subsets
     
     public void recHelper (List<List<Integer>> res, List<Integer> list, int nums[], int pos) {
         
