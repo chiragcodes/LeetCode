@@ -1,6 +1,6 @@
 class Solution {
     
-    public int arrayNesting(int[] nums) {
+    public int arrayNesting (int[] nums) {
         
         int n = nums.length;
         int max = 0;
