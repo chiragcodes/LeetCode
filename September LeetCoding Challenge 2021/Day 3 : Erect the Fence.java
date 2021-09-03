@@ -94,7 +94,7 @@ class Solution {
             i--;
         }
         
-        // Reverse Sort collinear points
+        // Reverse Sort the collinear points
         
         int low = i + 1, high = trees.length - 1;
         
