@@ -2,7 +2,6 @@ class Solution {
     
     public int orderOfLargestPlusSign (int n, int[][] mines) {
         
-        
         int grid[][] = new int[n][n];
         
         for (int i = 0; i < n; i++) {
