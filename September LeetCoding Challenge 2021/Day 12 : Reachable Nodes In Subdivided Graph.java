@@ -1,6 +1,6 @@
 class Solution {
     
-    public int reachableNodes(int[][] edges, int maxMoves, int n) {
+    public int reachableNodes (int[][] edges, int maxMoves, int n) {
         
         int N = n, M = maxMoves;
         
