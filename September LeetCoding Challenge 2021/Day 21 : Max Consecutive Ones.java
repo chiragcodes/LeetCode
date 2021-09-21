@@ -8,6 +8,5 @@ class Solution {
             max = Math.max (max, maxHere = n == 0 ? 0 : maxHere + 1);
         
         return max; 
-        
     }
 }
