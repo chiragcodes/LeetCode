@@ -1,1 +1,1 @@
-LeetCode solutions in java for October month.
+LeetCode Challenge solutions in java for October month.
